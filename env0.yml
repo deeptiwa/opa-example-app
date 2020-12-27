@@ -10,4 +10,4 @@ deploy:
       after:
         - terraform show -json .tf-plan > tf-plan.json
 #        - ./opa eval --fail-defined "data.terraform.deny[reason]" --input tf-plan.json --data ./instance_types.rego --data ./instance_types_test.rego --format pretty
-       - ./opa test ./instance_types.rego ./instance_types_test.rego tf-plan.json -v
+        - ./opa test ./instance_types.rego ./instance_types_test.rego tf-plan.json -v
