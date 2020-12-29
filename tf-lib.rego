@@ -1,3 +1,4 @@
+#Avner Version
 package terraform.library
 
 # Rego utils to work with Terraform
