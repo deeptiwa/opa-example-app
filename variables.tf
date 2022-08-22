@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "instance_type" {
   type = string
-  default = "t2.micro"
+  default = "t3.medium"
 }
 
 # Ubuntu Precise 12.04 LTS (x64)
